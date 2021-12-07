@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/ebook/view/" kind="src" path="bookstore-project-master/BookStore/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/cxf-core-3.4.5.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/cxf-rt-frontend-jaxrs-3.4.5.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/cxf-rt-rs-client-3.4.5.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-3.4.5.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-jetty-3.4.5.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javax.ws.rs-api-2.1.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/org.springframework.aop-3.2.0.release.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/org.springframework.beans-3.1.2.release.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/org.springframework.context-3.1.0.release.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/org.springframework.expression-3.1.0.release.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/org.springframework.web-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/spring-core-3.2.4.release.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.ws.cxf.core.CXF_CLASSPATH_CONTAINER/Apache CXF/3.4.5">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bookstore-project-master/BookStore/bin"/>
+</classpath>
