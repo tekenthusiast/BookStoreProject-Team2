@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lakeshore Marketplace | Partners Add Products</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="index.html">Lakeshore Marketplace</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main-navigation">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="customer.html">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="partner.html">Partners</a>
+                    </li>
+                  </ul>
+                </div>   
+                </nav>
+        <header class="page-header header container-fluid">
+                <div class="customer_description">
+                <h1>Add a product</h1>
+                <p></p> </br>
+                </div>  
+                <div class="partner_register">
+                  <h3 class="feature-title">Tell us about the product</h3>
+                  <form>
+                      <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Product name" id="product-name">
+                      </div>
+                      <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Product description" id="product-description">
+                      </div>
+                      <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Cost" id="product-cost">
+                      </div>
+                          <input id="sign-up" placeholder="Submit" class="btn btn-primary" onclick="performProductAdd()">    
+                  </form>
+                </div>
+        </header>   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="partner_product.js"></script>
+  </body>
+
+</html>
