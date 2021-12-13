@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lakeshore Marketplace | Partners</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="index.html">Lakeshore Marketplace</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main-navigation">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="customer.html">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="partner.html">Partners</a>
+                    </li>
+                  </ul>
+                </div>   
+                </nav>
+		<div class="container">	
+        <header class="page-header header container-fluid" id="new_partner">
+                <div class="partner_profile">
+                <br>
+                <h1>Welcome!</h1>
+                <p id="thanks">We're loading your profile, just one moment...</p> 
+                <p id="partnerName"></p>
+                <p id="partnerType"></p>
+                <p id="details"></p>
+                <a class="btn btn-info btn-lg" href="partner_product.html">Add a product</a> 
+                <br><br>
+                <h1>Profile Settings</h1>
+                <div>
+                  <h4>Update Name</h4>
+                  <form id="partner-name-update">
+                      <div>
+                          <input type="text" class="form-control" placeholder="Partner Name" id="partner-name">
+						  </br>
+                      </div>
+                          <input id="sign-up" placeholder="Update Name" class="btn btn-info" onclick="performPartnerNameUpdate()">    
+                  </form> 
+                </div>
+                <div>
+                  <h4>Update Details</h4>
+                  <form id="new-details">
+                      <div>
+                          <input type="text" class="form-control" placeholder="Details" id="partner-details">
+                      </div>
+					  </br>
+                          <input id="sign-up" placeholder="Update Details" class="btn btn-info btn-lg" onclick="performPartnerDetailsUpdate()">    
+                  </form>
+                </div>
+                <br><br>
+                <h4>Delete your account</h4>
+                <a class="btn btn-outline-secondary btn-lg" onclick="performPartnerDelete()">Delete</a> 
+                <p>THIS IS A PERMANENT OPERATION - USE WITH CAUTION</p>
+                </div>
+        </header>  
+	</div>		
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="partner_profile.js"></script>
+  </body>
+
+</html>

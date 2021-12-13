@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f7f5f7;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#d6d4d6;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: black;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: #0d0a0a;
+  }
+  .description p {
+    color: #000;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .customer_description {
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  .customer_description h1{
+    text-align: center;
+    color: #88848c;
+    font-size: 400%;
+  }
+  .customer_description h3{
+    text-align: center;
+    color: #88848c;
+  }
+
+  .new_customer {
+    text-align: center;
+  }
+
+  .customer_description #sign-up{
+    width: 50%;
+	
+  }
+
+  .customer_register {
+    width: 50%;
+    text-align: center;
+    transform: translate(50%, 0%);
+	
+  }
+  .btn-info a {
+  color: black;
+}
