@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  ssl:
+    enabled: false
+  additionalHttpPorts: 8082
+
+swagger3:
+  enable: true
+  title: Swagger3 demo
+  description: HR web service
+  authHeaderKey: token
